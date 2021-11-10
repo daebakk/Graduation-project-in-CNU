@@ -1,10 +1,10 @@
-# 2021년 공개 SW 개발자 대회
+# 2021년도 CNU 창의SW축전 창의작품경진대회
 
 ## Project : 야간 CCTV 영상화질 개선 및 객체 탐지
 
 ### 1.  배경 및 목적
 
-- 통합관제센터의 관제 인력 부족
+-  통합관제센터의 관제 인력 부족
 -  통합관제센터의 저화질 CCTV의 경우 어두운 환경에서 객체 식별에 어려움이 있음.
 -  기존의 저화질 CCTV를 단기간에 모두 교체하기에는 예산 문제가 있음
 
@@ -14,7 +14,7 @@
 - OS : Ubuntu 20.04 LTS
 - GPU : 8 x NVIDIA Tesla P100 PCIe 16GB
 - CUDA Toolkit : Driver 460.32, CUDA 11.2
-- 사용 언어 : Python 3.7
+- 사용 언어 : Python 3.7 이상
 
 ### 구동 환경
 - OS : Windows 10 Pro Build 19043.1165
@@ -33,7 +33,10 @@
 
 ### 4. 모델 학습 결과
 epoch 50
-![training_results](https://user-images.githubusercontent.com/41338783/132691322-6089e5c8-5598-42ad-ab41-bfa400894b2b.png)
+![training_results1](https://user-images.githubusercontent.com/41338783/132691322-6089e5c8-5598-42ad-ab41-bfa400894b2b.png)
+
+epoch 200
+![training_results2](https://user-images.githubusercontent.com/41338783/141113925-9b06f9fd-69d3-421f-9ba0-6bb735e4b7c9.png)
 
 ### 5. 프로젝트 주요기능
 - 저조도 개선 : 저조도 영상을 입력으로 받아 밝기 개선
